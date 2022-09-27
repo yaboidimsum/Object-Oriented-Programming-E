@@ -1,3 +1,4 @@
+package quiz;
 import java.util.Scanner;
 
 
@@ -18,7 +19,6 @@ public class Q11Fraction {
 	{
 		int e1,e2;
 		int d1,d2;
-		int sum,product;
 		int sumUp,sumDown,productUp,productDown;
 		
 		Scanner scanner = new Scanner(System.in);
@@ -33,11 +33,12 @@ public class Q11Fraction {
 			System.out.println("Enter the value of d1: ");
 			d1= scanner.nextInt();
 		}while(d1<0);
-		
+
 		do{
 			System.out.println("Enter the value of d2: ");
 			d2= scanner.nextInt();
 		}while(d2<0);
+		
 		
 		sumUp = (e1*d2 + e2*d1);
 		sumDown = (d1*d2);
@@ -50,4 +51,4 @@ public class Q11Fraction {
 		}
 	}
 	
-	
+//Revisi
